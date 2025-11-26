@@ -57,14 +57,6 @@ ng e2e
 # File Tree: PeliMax
 
 ```
-├── 📁 .angular/
-│   └── 📁 cache/ 🚫 (auto-hidden)
-├── 📁 .firebase/
-│   └── 🗑️ hosting.ZGlzdFxwZWxpbWF4XGJyb3dzZXI.cache 🚫 (auto-hidden)
-├── 📁 .git/ 🚫 (auto-hidden)
-├── 📁 .vscode/ 🚫 (auto-hidden)
-├── 📁 dist/ 🚫 (auto-hidden)
-├── 📁 node_modules/ 🚫 (auto-hidden)
 ├── 📁 public/
 │   └── 🖼️ favicon.ico
 ├── 📁 src/
