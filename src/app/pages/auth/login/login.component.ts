@@ -33,7 +33,7 @@ export class LoginComponent {
       .subscribe({
         next: () => {
           this._messageService.add({ severity: 'success', summary: 'Éxito', detail: 'Inicio de sesión correcto.' });
-          this._router.navigate(['/graphs/weather']);
+          this._router.navigate(['/graphs/home']);
         },
         error: () => {
           this._messageService.add({ severity: 'error', summary: 'Error', detail: 'Credenciales incorrectas.' });
