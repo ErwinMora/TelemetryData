@@ -1,6 +1,6 @@
 {
-  "name": "pelimax",
-  "short_name": "pelimax",
+  "name": "data-telemerty",
+  "short_name": "data-telemerty",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

@@ -73,3 +73,65 @@ button {
     font-weight: bold;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .register-cont {
+        padding: 40px 0;
+    }
+
+    .register-form {
+        padding: 3rem;
+        width: 90%;
+    }
+
+    .register-form input {
+        width: 250px;
+        font-size: 0.9rem;
+    }
+
+    .register-form label {
+        font-size: 0.9rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-cont {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .register-form {
+        width: 90%;
+        padding: 2rem 1.5rem;
+        border-radius: 20px;
+    }
+
+    .register-form input {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .register-form p-inputgroup {
+        padding: 0.5rem 0.7rem;
+    }
+
+    .register-form label {
+        font-size: 0.85rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    .register-login {
+        font-size: 0.9rem;
+    }
+}

@@ -23,7 +23,6 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
-/* Formulario */
 .form-mail,
 .form-pass {
     margin: 0 10px;
@@ -107,4 +106,73 @@ button {
     color: var(--four);
     font-weight: bold;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .login-form {
+        padding: 3rem;
+        width: 90%;
+    }
+
+    .form-mail input,
+    .form-pass input {
+        width: 250px;
+        font-size: 0.9rem;
+    }
+
+    .form-mail label,
+    .form-pass label {
+        font-size: 0.9rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-cont {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .login-form {
+        width: 90%;
+        padding: 2rem 1.5rem;
+        border-radius: 20px;
+    }
+
+    .form-mail input,
+    .form-pass input {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .form-mail p-inputgroup,
+    .form-pass p-inputgroup {
+        padding: 0.5rem 0.7rem;
+    }
+
+    .form-mail label,
+    .form-pass label {
+        font-size: 0.85rem;
+    }
+
+    .form-footer {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    .recovery-pass,
+    .register-login {
+        font-size: 0.9rem;
+    }
 }

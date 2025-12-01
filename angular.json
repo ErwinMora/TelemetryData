@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pelimax": {
+    "data-telemerty": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/pelimax",
+            "outputPath": "dist/data-telemerty",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pelimax:build:production"
+              "buildTarget": "data-telemerty:build:production"
             },
             "development": {
-              "buildTarget": "pelimax:build:development"
+              "buildTarget": "data-telemerty:build:development"
             }
           },
           "defaultConfiguration": "development"
