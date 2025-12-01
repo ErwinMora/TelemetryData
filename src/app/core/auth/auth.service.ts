@@ -13,8 +13,8 @@ export class AuthService {
 
   constructor(private _http: HttpClient, private _router: Router) { }
 
-  login(userData: { email: string, password: string }): Observable<Blob> {
-    return this._http.post(`${this._apiurl}/login`, userData, { responseType: 'blob' }).pipe(
+  login(userData: { email: string, password: string }): Observable<any> {
+    return this._http.post(`${this._apiurl}/login`, userData).pipe(
       catchError(error => {
         const errorMsg = error?.error?.message || 'Se produjo un error inesperado. Inténtelo de nuevo o más tarde.';
         return throwError(() => ({ message: errorMsg }));
