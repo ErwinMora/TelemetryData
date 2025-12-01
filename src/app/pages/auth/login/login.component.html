@@ -1,7 +1,7 @@
 <div class="login-view">
     <div class="login-cont">
         <h1 class="text-center">Bienvenido a Recopilación de Datos ESP-32</h1>
-        <form class="login-form" action="">
+        <form class="login-form"  (ngSubmit)="login()">
             <!-- Campo para ingresar correo -->
             <div class="form-mail">
                 <label for="">Correo: </label>
@@ -9,7 +9,7 @@
                     <p-inputgroup-addon>
                         <i class="pi pi-envelope"></i>
                     </p-inputgroup-addon>
-                    <input pInputText placeholder="Ingresa tu correo electronico" />
+                    <input pInputText placeholder="Ingresa tu correo electronico"  name="email" [(ngModel)]="email" required />
                 </p-inputgroup>
             </div>
 
@@ -20,15 +20,17 @@
                     <p-inputgroup-addon>
                         <i class="pi pi-lock"></i>
                     </p-inputgroup-addon>
-                    <input pInputText placeholder="Ingresa tu contraseña" type="password" />
+                    <input pInputText placeholder="Ingresa tu contraseña" type="password"  name="password" [(ngModel)]="password" required/>
                 </p-inputgroup>
             </div>
             <div class="form-footer">
-                <button>Iniciar Sesión <i class="pi pi-sign-in"></i></button>
+                <button type="submit">Iniciar Sesión <i class="pi pi-sign-in"></i></button>
+                <!--
                 <a class="recovery-pass" href="">¿Olvidate tu contraseña?</a>
-                <p>No tienes una cuenta?
-                    <a class="register-login" routerLink="/auth/register">Regístrate</a>
-                </p>
+                    <p>No tienes una cuenta?
+                        <a class="register-login" routerLink="/auth/register">Regístrate</a>
+                    </p>
+                    -->
             </div>
         </form>
     </div>
