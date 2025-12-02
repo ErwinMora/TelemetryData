@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "data-telemerty": {
+    "data-telemetry": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/data-telemerty",
+            "outputPath": "dist/data-telemetry",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "data-telemerty:build:production"
+              "buildTarget": "data-telemetry:build:production"
             },
             "development": {
-              "buildTarget": "data-telemerty:build:development"
+              "buildTarget": "data-telemetry:build:development"
             }
           },
           "defaultConfiguration": "development"

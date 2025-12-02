@@ -1,6 +1,6 @@
 {
-  "name": "data-telemerty",
-  "short_name": "data-telemerty",
+  "name": "data-telemetry",
+  "short_name": "data-telemetry",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
