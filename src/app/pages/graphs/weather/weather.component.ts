@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ChartModule } from 'primeng/chart';
 import { SharedModule } from '../../../shared/shared.module';
 import { GraphsService } from '../../../core/graph/graphs.service';
-import { ChartModule } from 'primeng/chart';
 
 
 @Component({
@@ -51,8 +51,8 @@ export class WeatherComponent implements OnInit {
             {
               label: 'Cantidad de Lecturas',
               data,
-              backgroundColor: 'rgba(54, 162, 235, 0.6)',
-              borderColor: 'rgba(54, 162, 235, 1)',
+              backgroundColor: 'rgba(72, 212, 170, 0.6)',
+              borderColor: 'rgba(66, 197, 134, 0.6)',
               borderWidth: 1
             }
           ]

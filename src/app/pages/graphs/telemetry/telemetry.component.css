@@ -1,0 +1,67 @@
+.title-modern {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.table-telemetry-modern {
+    border-radius: 14px;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+}
+
+.th-modern {
+    background: #222;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.9rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.row-modern td {
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.row-modern:hover {
+    background: #f5f5f5;
+    transition: background 0.2s;
+}
+
+@media (max-width: 768px) {
+    .title-modern {
+        font-size: 1.8rem;
+    }
+
+    .table-telemetry-modern {
+        padding: 0.5rem;
+    }
+
+    .th-modern {
+        font-size: 0.85rem;
+        padding: 0.6rem;
+    }
+
+    .row-modern td {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .title-modern {
+        font-size: 1.5rem;
+    }
+
+    .row-modern td {
+        font-size: 0.68rem;
+    }
+}

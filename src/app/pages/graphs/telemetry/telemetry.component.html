@@ -1,2 +1,30 @@
 <app-sidebar></app-sidebar>
-<p>telemetry works!</p>
+<div class="container mt-3">
+    <h2 class="title-modern">Telemetría</h2>
+    <p-table 
+        class="card table-telemetry-modern" 
+        [value]="telemetryData" 
+        [paginator]="true" 
+        [rows]="15"
+        [rowsPerPageOptions]="[10, 15, 20]" 
+        [showCurrentPageReport]="true"
+        currentPageReportTemplate="{first} a {last} de {totalRecords} registros" 
+        [showFirstLastIcon]="true"
+    >
+        <ng-template #header>
+            <tr>
+                <th class="th-modern">Humedad</th>
+                <th class="th-modern">Temperatura</th>
+                <th class="th-modern">Fecha</th>
+            </tr>
+        </ng-template>
+
+        <ng-template pTemplate="body" let-row>
+            <tr class="row-modern">
+                <td>{{ row.humedad }}</td>
+                <td>{{ row.temperatura }}</td>
+                <td>{{ row.timestamp }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

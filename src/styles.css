@@ -2,6 +2,7 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
+
 :root {
     --background: #FFFFFF;
     --background1: #C8E4EF;
@@ -132,7 +133,6 @@ h2 {
     left: 38.4%;
 }
 
-/* --- RESPONSIVO PARA TABLET (≤ 992px) --- */
 @media (max-width: 992px) {
 
     h1 {
@@ -143,15 +143,18 @@ h2 {
         font-size: 2.2rem;
     }
 
-    /* Reducir un poco los círculos */
-    .span-1, .span-2, .span-3, .span-4,
-    .span-5, .span-6, .span-7, .span-8 {
+    .span-1,
+    .span-2,
+    .span-3,
+    .span-4,
+    .span-5,
+    .span-6,
+    .span-7,
+    .span-8 {
         transform: scale(0.75);
     }
 }
 
-
-/* --- RESPONSIVO PARA MÓVILES GRANDES (≤ 768px) --- */
 @media (max-width: 768px) {
 
     h1 {
@@ -162,9 +165,14 @@ h2 {
         font-size: 1.8rem;
     }
 
-    /* Reducir más los círculos */
-    .span-1, .span-2, .span-3, .span-4,
-    .span-5, .span-6, .span-7, .span-8 {
+    .span-1,
+    .span-2,
+    .span-3,
+    .span-4,
+    .span-5,
+    .span-6,
+    .span-7,
+    .span-8 {
         transform: scale(0.55);
     }
 }
@@ -179,17 +187,54 @@ h2 {
         font-size: 1.4rem;
     }
 
-    .span-1, .span-2, .span-3, .span-4,
-    .span-5, .span-6, .span-7, .span-8 {
+    .span-1,
+    .span-2,
+    .span-3,
+    .span-4,
+    .span-5,
+    .span-6,
+    .span-7,
+    .span-8 {
         transform: scale(0.38);
     }
 
-    .span-1 { top: -30px; right: -60px; }
-    .span-2 { bottom: -60px; left: -60px; }
-    .span-3 { bottom: 10%; right: -40px; }
-    .span-4 { bottom: 40%; right: 30%; }
-    .span-5 { top: 10%; left: 35%; }
-    .span-6 { top: 0; left: 5%; }
-    .span-7 { top: 30%; left: 27%; }
-    .span-8 { bottom: 25%; left: 35%; }
+    .span-1 {
+        top: -30px;
+        right: -60px;
+    }
+
+    .span-2 {
+        bottom: -60px;
+        left: -60px;
+    }
+
+    .span-3 {
+        bottom: 10%;
+        right: -40px;
+    }
+
+    .span-4 {
+        bottom: 40%;
+        right: 30%;
+    }
+
+    .span-5 {
+        top: 10%;
+        left: 35%;
+    }
+
+    .span-6 {
+        top: 0;
+        left: 5%;
+    }
+
+    .span-7 {
+        top: 30%;
+        left: 27%;
+    }
+
+    .span-8 {
+        bottom: 25%;
+        left: 35%;
+    }
 }
