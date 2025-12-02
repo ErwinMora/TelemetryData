@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { SharedModule } from '../../../shared/shared.module';
 
 @Component({
   selector: 'app-telemetry',
-  imports: [],
+  imports: [SharedModule],
   templateUrl: './telemetry.component.html',
   styleUrl: './telemetry.component.css'
 })

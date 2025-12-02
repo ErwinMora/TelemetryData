@@ -28,7 +28,7 @@ ng serve -o
 ## Rutas de la App
 - http://localhost:4200/auth/login
 - http://localhost:4200/graphs/home
-- http://localhost:4200/graphs/weather
+- http://localhost:4200/graphs/telemetry
 
 ## Tecnologías utilizadas
 
