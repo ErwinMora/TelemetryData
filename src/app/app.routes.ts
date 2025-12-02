@@ -12,6 +12,6 @@ export const routes: Routes = [
     path: 'graphs',
     loadChildren: () =>
       import('./pages/graphs/graphs.routes').then((m) => m.GRAPH_ROUTES),
-    canActivate: [AuthGuard]
+    // canActivate: [AuthGuard]
   }
 ];
