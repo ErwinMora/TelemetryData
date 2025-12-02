@@ -1,5 +1,7 @@
-<app-sidebar></app-sidebar>
-<p>weather works!</p>
-<!--
-    <p-chart type="bar" [data]="data" [options]="options" class="h-[30rem]" />
--->
+<div class="container-fluid mt-4">
+    <article class="card-grafica">
+        <h5 class="text-center mt-2">Cantidad de Lecturas por Fecha</h5>
+        <p-chart type="bar" [data]="tempChartData" [options]="tempChartOptions" class="grafica-weather">
+        </p-chart>
+    </article>
+</div>

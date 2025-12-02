@@ -1,0 +1,28 @@
+.card-grafica {
+    width: 100%;
+    max-width: 1400px;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.grafica-weather {
+    width: 100%;
+    height: 400px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .grafica-weather {
+        height: 300px;
+    }
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 420px) {
+    .grafica-weather {
+        height: 220px;
+    }
+}
